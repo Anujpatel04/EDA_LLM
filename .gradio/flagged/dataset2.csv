@@ -1,0 +1,37 @@
+file_path,EDA Report,Data Visualizations,timestamp
+.gradio\flagged\file_path\b910e9aacfcc06435104\data.csv,"'
+ Data Loaded Successfully!
+
+ Summary:
+       CountryName CountryCode   BirthRate  InternetUsers  IncomeGroup
+count          195         195  195.000000     195.000000          195
+unique         195         195         NaN            NaN            4
+top          Aruba         ABW         NaN            NaN  High income
+freq             1           1         NaN            NaN           67
+mean           NaN         NaN   21.469928      42.076471          NaN
+std            NaN         NaN   10.605467      29.030788          NaN
+min            NaN         NaN    7.900000       0.900000          NaN
+25%            NaN         NaN   12.120500      14.520000          NaN
+50%            NaN         NaN   19.680000      41.000000          NaN
+75%            NaN         NaN   29.759500      66.225000          NaN
+max            NaN         NaN   49.661000      96.546800          NaN
+
+ Missing Values:
+CountryName      0
+CountryCode      0
+BirthRate        0
+InternetUsers    0
+IncomeGroup      0
+
+ AI Insights:
+ From the summary of your dataset, here are some insights:
+
+1. The dataset consists of 195 countries, each represented by a unique CountryName and CountryCode. However, some fields like BirthRate, InternetUsers, and IncomeGroup are missing values (NaN) for all rows.
+
+2. The top country in terms of income group is Aruba (ABW), which falls under the High income category. This might imply that most countries in this dataset fall into lower-income groups if only four unique income groups are being considered.
+
+3. The distribution of BirthRate and InternetUsers seems skewed, as indicated by their large standard deviations compared to the mean values. This suggests a wide range of birth rates and internet user counts across the countries in the dataset.
+
+4. The minimum birth rate is 7.9, and the maximum is 49.66, indicating significant variation in birth rates among the countries. Similarly, the minimum number of internet users is 0.9, while the maximum is 96.5468, suggesting a wide range in internet penetration across these nations.
+
+5. The median values for both BirthRate and InternetUsers are closer to the mean values, indicating that roughly half of the countries have birth rates and internet user counts slightly above or below the respective means.","[{""image"": "".gradio\\flagged\\Data Visualizations\\06fb2a7d07f73a343bc9\\BirthRate_distribution.png"", ""caption"": null}, {""image"": "".gradio\\flagged\\Data Visualizations\\abce072bcfc2adb378e0\\InternetUsers_distribution.png"", ""caption"": null}, {""image"": "".gradio\\flagged\\Data Visualizations\\79eae4033c930f3deaf0\\correlation_heatmap.png"", ""caption"": null}]",2025-03-07 22:18:48.689153
